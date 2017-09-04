@@ -7,6 +7,6 @@ import (
 
 func Test_compare(t *testing.T) {
 	//result := compare([]int{1, 2, 3}, []int{2, 3, 1})
-	result := compare([]int{1, 2, 3}, []int{1,2,3})
+	result := Compare([]int{1, 2, 3}, []int{1,2,3})
 	assert.Equal(t, result, true, "对比错误")
 }

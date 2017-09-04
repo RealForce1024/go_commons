@@ -1,6 +1,6 @@
 package go_commons
 
-func compare(s1, s2 []int) bool {
+func Compare(s1, s2 []int) bool {
 	if len(s1) != len(s2) {
 		return false
 	}
