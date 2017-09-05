@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func traceTime() func() {
+func TraceTime() func() {
 	now := time.Now()
 	return func() {
 		fmt.Println(time.Since(now))

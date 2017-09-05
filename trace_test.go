@@ -5,11 +5,11 @@ import (
 	"time"
 )
 
-func Test_traceTime(t *testing.T) {
+func Test_TraceTime(t *testing.T) {
 	test()
 }
 
 func test() {
 	time.Sleep(time.Second)
-	defer traceTime()
+	defer TraceTime()
 }
