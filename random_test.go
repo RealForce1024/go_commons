@@ -2,7 +2,8 @@ package go_commons
 
 import (
 	"testing"
-	"extra/testify/assert"
+	//"extra/testify/assert"
+	"github.com/stretchr/testify/assert"
 	"fmt"
 )
 
